@@ -1,0 +1,90 @@
+/* Apply background and set font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffcccc, #ff99cc); /* Soft pink gradient */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ff66a3;
+}
+
+/* Profile Image */
+img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 160px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #ff66a3; /* Adds a pink border */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Info */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff3377;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Section Styling */
+.pink-section {
+    background: #ffe6f2;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 20px;
+    color: #ff3377;
+    border-bottom: 2px solid #ff66a3;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
